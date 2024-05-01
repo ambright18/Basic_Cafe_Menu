@@ -1,0 +1,76 @@
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    background-image: url(./coffee-background.jpg); /*<a href="https://www.freepik.com/free-photo/cup-coffee-table-front-street-with-city-lights-background_40970695.htm#query=coffee%20shop%20wallpaper&position=0&from_view=keyword&track=ais&uuid=f528b1ef-c00b-4c81-8883-16baca0cb0be">Image by vecstock</a> on Freepik*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    backdrop-filter: blur(7px);
+
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+.established{
+    font-style: italic;
+}
+h1, h2, p{
+    text-align: center;
+}
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+.item p{
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+}
+.flavor,.dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+footer{
+    padding: 10px 0 0 0;
+}
+.a{
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+ color: white;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: brown; 
+}
